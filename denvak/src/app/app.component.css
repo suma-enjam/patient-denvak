@@ -12,14 +12,18 @@
      width:100%;
      display: flex;       
  }
- .container{
-     margin-top: 1%;     
-     padding: 18px 8%;     
-     display: flex;          
- }
+ .container {
+    margin-top: 1%;
+    padding: 18px 5%; /* This adds 8% padding on the left and right */
+    display: flex;    
+    align-items: center; /* Vertically centers items */
+    width: 100%; /* Ensure the container takes up the full width */
+        
+  }
+  
  .buttons{
     font-size: larger;
-    margin-left:60%;
+    margin-left:50%;
     display:flex;      
     align-items: center; 
  }
@@ -39,10 +43,11 @@
      justify-content: space-between;
      width: 100%     
  }
- /* .logo{
-     margin-right: 100%;
+ .logo{
+    height:40px;
+    width:auto;
         
- } */
+ }
  nav ul li{
      display: inline-block;
      list-style: none;
@@ -126,12 +131,12 @@
      margin-bottom: 20px;
  }
 
- .doc-near{
+ /* .doc-near{
      margin-top: 30px;
      background-color: #ffffff;
      
- }
- .near{
+ } */
+ /* .near{
      margin-left: 30px;
      color: #1f207c;
      font-weight: bold;
@@ -143,8 +148,8 @@
      margin-top: 10px;
      color: #1f207c;
      font-weight: 100;
- }
- .docs-container {
+ } */
+ /* .docs-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -157,15 +162,23 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
-  }
+  } */
  .why{
      margin-top: 30px;
-     margin-left: 30px;
+     margin-left:50px;
      color: #1f207c;
      font-weight: bold;
      font-size: xx-large;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
+ .contact{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: #1f207c;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
  .whyy{     
      display: flex;
      margin-left: 60px;
@@ -225,88 +238,185 @@
      font-size: xx-large;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
- .contact-us{
-     justify-content: center;
-     align-items: center;
-     width:900px;
- }
- .cu2{
-     color: #4a3ad2;
-     font-family:Georgia, 'Times New Roman', Times, serif;
-     display: inline-block;
-     padding-top: 10px;
-     padding-bottom: 5px;
-     margin-left: 40px;
-     margin-top: 20px;
-     input[type="text"]{
-         border-radius: 10px;
-         padding: 2px 20px;
-         border-style:ridge;
-         border-width: 1px;
-         margin-top: 5%;
-     }
- }
- .cu3{
-     color: #4a3ad2;
-     font-family:Georgia, 'Times New Roman', Times, serif;
-     display: inline-block;
-     padding-top: 10px;
-     padding-bottom: 30px;
-     margin-left: 40px;
-     input[type="text"]{
-         border-radius: 10px;
-         padding: 15px 145px;
-         border-style:ridge;
-         border-width: 1px;
-         padding-left: 10px;
-         padding-right: 285px;
-         margin-top: 5px;
-     }
- }
+
+
  
- .bottom-box{
-    
-     background-color: #1f207c;
-     margin-top: 40px;
-     color: #FFFFFF;
-     padding-top: 5%;
-     padding-bottom: 10%;
- }
- .para{
-     margin-left: 50px;
-     font-size: 12px;
-     margin-top: 5px;
-     margin-bottom: 5px;
-     display: inline-block;
- }
- .para1{
-     margin-left: 40px;
-     font-size: 12px;
-     margin-top: 5px;
-     margin-bottom: 5px;
-     display: inline-block;
- }
- .para2{
-     margin-left: 50%;
-     font-size: 12px;
-     margin-top: 5px;
-     margin-bottom: 5px;
-     display: inline-block;
- }
- .para3{
-     font-family:Georgia, 'Times New Roman', Times, serif;
-     font-size:18px;
-     font-weight: bold;
-     margin-bottom: 7px;
- }
- .para4{
-     margin-top: 10px;
-     margin-bottom: 10px;
-     font-weight: 0.05px;
- }
+
  
  
  
+
+
+
+ .doc-near {
+    text-align: center;
+    margin: 20px;
+}
+
+.near {
+    font-size: 24px;
+    font-weight: bold;
+    color: #312764; /* Color to match the heading style */
+    margin-bottom: 10px;
+}
+
+.near1 {
+    font-size: 18px;
+    color: #6d6d6d; /* Subtle grey for the subtext */
+    margin-bottom: 40px;
+}
+
+.docs-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between items */
+    flex-wrap: wrap;
+}
+
+.doc-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.doclogo {
+    width: 150px; /* Adjust size to fit your needs */
+    height: 150px;
+    border-radius: 50%; /* Make the images round */
+    object-fit: cover;
+}
+
+.doctext {
+    font-size: 16px;
+    color: #312764; /* Color for the text */
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+ 
+
+
+
  
  
+
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.why {
+    font-size: 28px;
+    font-weight: bold;
+    color: #312764;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.input-field {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.input-field label {
+    display: block;
+    font-size: 16px;
+    color: #312764;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 250px; /* Fixed width for smaller inputs */
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #6d6d6d;
+}
+
+textarea {
+    width: 100%; /* Full width for textarea */
+    height: 100px;
+    padding: 10px;
+    resize: none;
+}
+
+.submit-btn {
+    padding: 10px 40px;
+    background-color: #312764;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+}
+
+.submit-btn:hover {
+    background-color: #514ea1; /* Darker hover effect */
+}
+
+/* Flexbox for input fields to align them horizontally */
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 60%;
+}
+
+.contact-us img {
+    max-width: 30%;
+    align-self: flex-start;
+}
  
+
+
+
+
+.footer {
+    background-color: #162775; /* Dark blue background color */
+    padding: 40px;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.para, .para1, .para2 {
+    flex: 1;
+}
+
+.para3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.para4 {
+    font-size: 18px;
+    padding:1%;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.para2 p.para4 {
+    margin-bottom: 5px;
+}
+
+.footer p {
+    margin: 0;
+}
