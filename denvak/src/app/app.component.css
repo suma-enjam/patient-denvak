@@ -33,10 +33,11 @@
  .logo-container{
     margin-left: 1%;
  }
- .logo-text{
-    display: flex;
-    font-weight: bolder;
+ .logo{
+    width:50%;
+    height:auto;
  }
+ 
  nav{
     display:flex;
      align-items: center;
@@ -145,7 +146,7 @@
  }
  .near1{
      margin-left: 30px;
-     margin-top: 10px;
+     margin-top:5px;
      color: #1f207c;
      font-weight: 100;
  } */
